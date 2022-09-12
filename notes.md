@@ -1,0 +1,14 @@
+- :qa!	> exit no save
+- :x	> exit and save file
+- I x	> del char Ins
+- dd	> delete line Ins
+- u		> undo
+- CTRL-r> redo
+- o		> new line below > Ins mode
+- O		> new line above > Ins mode
+- ZZ	> write file and exit
+- 5k	> jump x # of lines in any dir
+- :		> enter command mode
+- CTRL-t> NerdTree
+-
+This is amazing - https://danielmiessler.com/study/vim/
