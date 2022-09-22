@@ -20,18 +20,16 @@ set scrolloff=8
 set noshowmode
 
 call plug#begin()
-
 Plug 'https://github.com/vim-airline/vim-airline'
 Plug 'https://github.com/preservim/nerdtree'
 Plug 'folke/tokyonight.nvim', {'branch': 'main'}
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'davidhalter/jedi-vim'
-Plug 'https://github.com/davidhalter/jedi-vim'
 Plug 'https://github.com/tpope/vim-commentary'
 
 call plug#end()
 
 colorscheme tokyonight
+" hi Normal guibg=NONE ctermbg=NONE
+" hi EndOfBuffer guibg=NONE ctermbg=NONE
 
 nnoremap <C-f> :NERDTreeFocus<CR>
 nnoremap <C-n> :NERDTree<CR>
