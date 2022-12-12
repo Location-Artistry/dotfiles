@@ -10,3 +10,6 @@ vim.opt.incsearch = true
 vim.opt.smartindent = true
 vim.opt.wrap = false
 vim.g.mapleader = " "
+vim.opt.scrolloff = 10
+vim.o.mouse = a
+
